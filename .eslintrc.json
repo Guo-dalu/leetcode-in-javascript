@@ -90,7 +90,7 @@
         }
       ],
       "no-plusplus": [
-        2,
+        0,
         {
           "allowForLoopAfterthoughts": true
         }
@@ -122,7 +122,6 @@
       ],
       "no-var": 0,
       "one-var-declaration-per-line": "off",
-      "one-var": "off",
-      "no-plusplus": 0
+      "one-var": "off"
     }
 }
