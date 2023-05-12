@@ -10,6 +10,13 @@
  * @return {number}
  */
 var mySqrt = function (x) {
-  return Math.floor(Math.sqrt(x))
+  let m = Math.floor(x / 2)
+  let start = m, end = x
+  while (start < end) {
+    if (m * m <= x && (m + 1) * (m + 1) > x) {
+      return m
+    }
+  }
+  return m
 }
 // @lc code=end
