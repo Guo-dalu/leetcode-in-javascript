@@ -1,6 +1,6 @@
-const throttle = (fn, timeout) => {
-  let timer = null
-  return (...args) => {
+const throttle = (fn:Function, timeout:number) => {
+  let timer: ReturnType<typeof setTimeout> | null = null
+  return (...args: any[]) => {
     if (!timer) {
       timer = setTimeout(() => {
         fn(...args)
