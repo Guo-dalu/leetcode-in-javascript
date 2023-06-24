@@ -19,6 +19,5 @@ module.exports = {
   rules: {
     "object-curly-spacing": ["error", "always"],
     "space-infix-ops": ["error", { "int32Hint": false }], // Optional rule for spacing around operators
-    "semi": ["error", "always"] // Optional rule for enforcing semicolons
   }
 };
